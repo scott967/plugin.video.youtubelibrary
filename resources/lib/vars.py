@@ -57,9 +57,9 @@ databaseFile = os.path.join(dataPath, 'settings.db')
 addonPath = xbmcaddon.Addon().getAddonInfo("path")
 IMG_DIR = os.path.join(addonPath,'resources/media')
 gearArt = os.path.join(addonPath,'resources/media/gear.png')
-addondataPath = os.path.join(xbmc.translatePath('special://profile/userdata/addon_data/plugin.video.youtubelibrary'), '')
-settingsPath = os.path.join(xbmc.translatePath('special://profile/userdata/addon_data/plugin.video.youtubelibrary/Settings'), '')
-streamsPath = os.path.join(xbmc.translatePath('special://profile/userdata/addon_data/plugin.video.youtubelibrary/Streams'), '')
+addondataPath = os.path.join(xbmc.translatePath('special://profile/addon_data/plugin.video.youtubelibrary'), '')
+settingsPath = os.path.join(xbmc.translatePath('special://profile/addon_data/plugin.video.youtubelibrary/Settings'), '')
+streamsPath = os.path.join(xbmc.translatePath('special://profile/addon_data/plugin.video.youtubelibrary/Streams'), '')
 
 
 #Addonname and icon
